@@ -1,0 +1,107 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+/*title name*/
+.container {
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+
+}
+
+
+/*inputs*/
+.data-container {
+    text-align: center;
+}
+
+#input-box{
+    height: 3rem;
+    width: 50rem;
+}
+
+.accept-data {
+    height: 2.6rem;
+    width: 10rem;
+    font-weight: bold;
+}
+
+.accept-data:hover {
+    cursor: pointer;
+}
+
+
+.list{
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+
+}
+
+
+
+li {
+    list-style: none;
+    font-size: 3rem;
+    text-align: center;
+    padding: 0;
+
+    word-break: break-all;
+
+    
+
+    
+
+
+}
+
+p {
+    margin: 0;
+    display: inline-block;
+    margin-right: 4rem;
+    width: 50rem;
+    padding-top: .8rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 10px 10px 10px rgb(234, 234, 234);
+    background-color: rgb(229, 229, 229);
+    
+}
+
+.not-active {
+    text-decoration: none;
+}
+
+#todos{
+    padding: 0;
+
+
+}
+
+#remove-item {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-bottom: .8rem;
+    border: none;
+    background: rgb(137, 137, 137);
+
+
+   
+}
+#remove-item:hover {
+    cursor: pointer;
+}
+
+#remove-item:after {
+    content: "\00d7";
+    
+   
+}
